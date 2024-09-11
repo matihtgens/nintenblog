@@ -10,22 +10,18 @@ html, body {
     flex-direction: column;
   }
   
-  .navbar {
+  nav {
+    font-family:'Press Start 2P', cursive;
     background-color: #ffcc00;
+    padding: 10px;
   }
   
-  .navbar-brand {
-    font-family: 'Press Start 2P', cursive;
-    color: #e60012 !important;
+  .nav-link {
+    color: #df1414;
   }
   
-  .text {
-    font-family: 'Press Start 2P', cursive;
-    color: #000000
-  }
-  .navbar-nav .nav-link {
-    color: #e60012 !important;
-    font-weight: bold;
+  .nav-link:hover {
+    color: rgb(0, 0, 0);
   }
   
   .container {
