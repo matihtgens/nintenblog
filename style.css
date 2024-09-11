@@ -2,6 +2,32 @@ html, body {
     height: 100%;
     margin: 0;
   }
+  #fondoIndex{
+    background-image: url("./img/maario.jpg");
+    background-size: 25%;
+  }
+
+  #fondoContact{
+    background-image: url("./img/kirby.jpg");
+    background-size: 25%;
+  }
+  #fondoAbout{
+    background-image: url("./img/pika.jpg");
+    background-size: 25%;
+  }
+
+  #pika{
+    border-radius: 15px;
+  }
+
+  .divBody{
+    background-color: rgba(255, 255, 255, 0.75); /* Color blanco con 50% de opacidad */
+  }
+
+  img{
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+    margin-bottom: 20px;
+  }
   
   body {
     font-family: 'Roboto', sans-serif;

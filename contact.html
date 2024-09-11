@@ -14,61 +14,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <div>
-        <nav class="nav">
-            <a class="nav-link" href="index.html">NintenBlog</a>
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link active" href="contact.html">Contact</a>
-        </nav>
-        </div>
-    <div class="container mt-5">
-        <h1 class="text">Contactanos</h1>
-        <form>
-            <label for="fname" class="text">Nombre:</label><br>
-            <input type="text" id="fname" name="fname" required><br>
-            
-            <label for="lname" class="text">Apellido:</label><br>
-            <input type="text" id="lname" name="lname" required>
-            <br>
-            
-            <label for="message" class="text">Deje su mensaje:</label><br>
-            <textarea id="message" name="message" required></textarea>
-            
-            <br>
-            <!-- <input type="submit" value="Submit" onclick="presionarBoton()"> -->
-            <button type="button" onclick="presionarBoton()">Enviar</button>
-          </form>
-          <p></p>
-          <b></b> 
-          <p></p>
-          <h2 class="text">¿Cómo podemos ayudarte?</h2>
-          <p>
-          <a href="https://www.twitch.tv/">Encuentranos en Twitch!</a>
-          </p>
-          <p>
-          <a href="https://github.com/matihtgens/nintenblog">Visitanos en Github!</a>  
-          </p>
-          
-    
-              <div class="promo-section">
-            <img src="https://wallpapercave.com/wp/wp2403434.jpg" alt="ns" class="img-fluid">
-            <p class="promo-description"></p>
-        </div>
-    </div>
-    
-    <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
-            <h5>Siguenos en nuestras redes!</h5>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/">Facebook</a> | <a href="https://x.com/home">Twitter</a> | <a href="https://www.instagram.com/">Instagram</a>
+<body id="fondoContact">
+    <div class="divBody">
+
+        <div>
+            <nav class="nav">
+                <a class="nav-link" href="index.html">NintenBlog</a>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </nav>
+            </div>
+        <div class="container mt-5 text-center">
+            <h1 class="text">Contactanos</h1>
+            <form>
+                <label for="fname" class="text">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                
+                <label for="lname" class="text">Apellido:</label><br>
+                <input type="text" id="lname" name="lname" required>
+                <br>
+                
+                <label for="message" class="text">Deje su mensaje:</label><br>
+                <textarea id="message" name="message" required></textarea>
+                
+                <br>
+                <!-- <input type="submit" value="Submit" onclick="presionarBoton()"> -->
+                <button type="button" onclick="presionarBoton()">Enviar</button>
+              </form>
+              <p></p>
+              <b></b> 
+              <p></p>
+              <h2 class="text">¿Cómo podemos ayudarte?</h2>
+              <p>
+              <a href="https://www.twitch.tv/">Encuentranos en Twitch!</a>
+              </p>
+              <p>
+              <a href="https://github.com/matihtgens/nintenblog">Visitanos en Github!</a>  
+              </p>
+              
+        
+                  <div class="promo-section">
+                <img id="pika" src="https://wallpapercave.com/wp/wp2403434.jpg" alt="ns" class="img-fluid">
+                <p class="promo-description"></p>
             </div>
         </div>
-        <div class="text-center p-3 bg-dark text-light">
-            © 2024 NintenBlog - All rights reserved.
-        </div>
-    </footer>
+        
+        <footer class="bg-light text-center text-lg-start">
+            <div class="container p-4">
+                <h5>Siguenos en nuestras redes!</h5>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/">Facebook</a> | <a href="https://x.com/home">Twitter</a> | <a href="https://www.instagram.com/">Instagram</a>
+                </div>
+            </div>
+            <div class="text-center p-3 bg-dark text-light">
+                © 2024 NintenBlog - All rights reserved.
+            </div>
+        </footer>
+    </div>
     
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
