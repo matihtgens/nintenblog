@@ -1,19 +1,68 @@
-* {
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-}
-
-body {
-    background: url(img/ninbg.jpg)no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-h1,h2,h3,h4,h5,h6 {
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: #ffcc00;
+  }
+  
+  .navbar-brand {
     font-family: 'Press Start 2P', cursive;
-    color: #ffffff;
-    width: 100%;
-    margin: auto;
-}
+    color: #e60012 !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #e60012 !important;
+    font-weight: bold;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .game-title {
+    font-family: 'Abril Fatface', cursive;
+    color: #e60012;
+    font-size: 5rem;
+  }
+  
+  h3 {
+    color: #0073cf;
+  }
+  
+  .promo-section {
+    margin-top: 40px;
+  }
+  
+  .promo-description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  footer .social-icons a {
+    font-size: 1.2rem;
+    color: #0073cf;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .social-icons a:hover {
+    color: #e60012;
+  }
+  
+  .bg-light {
+    background-color: #eee12f !important;
+  }

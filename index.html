@@ -15,11 +15,53 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>NintenBlog</h1>
-    <h3>The best Nintendo Blog</h3>
-    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam magnam praesentium voluptate, exercitationem fugiat vitae, minima suscipit ad nam architecto rem? Laudantium, ad aut cumque ab delectus sed natus labore?</h5>
 
-    <!-- Script Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">NintenBlog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
+
+       <div class="container mt-5 text-center">
+        <h1 class="game-title">NintenBlog</h1>
+        <h3>The Best Nintendo Blog in the World!!</h3>
+        <p>Welcome to NintenBlog, where we bring you the latest news and insights from the world of Nintendo!.</p>
+        <p>Stay tuned for updates on your favorite games!</p>
+
+              <div class="promo-section">
+            <img src="./img/ac.jpg" alt="ns" class="img-fluid">
+            <p class="promo-description">Introducing the new Nintendo Switch OLED! Experience gaming like never before with a vibrant 7-inch OLED screen, enhanced audio, and improved ergonomics for long gaming sessions.</p>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <h5>Siguenos en nuestras redes!</h5>
+            <div class="social-icons">
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-light">
+            © 2024 NintenBlog - All rights reserved.
+        </div>
+    </footer>
+
+      <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
