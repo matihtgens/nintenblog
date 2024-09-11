@@ -66,3 +66,13 @@ html, body {
   .bg-light {
     background-color: #eee12f !important;
   }
+  .marioHugo{
+    width: 100%;
+    height: auto;
+  }
+  
+  .secAbout{
+    margin: 10px;
+    text-align: center;
+    background: lightgrey;
+  }
