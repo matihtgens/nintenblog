@@ -19,6 +19,10 @@ html, body {
     color: #e60012 !important;
   }
   
+  .text {
+    font-family: 'Press Start 2P', cursive;
+    color: #000000
+  }
   .navbar-nav .nav-link {
     color: #e60012 !important;
     font-weight: bold;
