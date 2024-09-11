@@ -39,17 +39,18 @@
         <h1 class="text">Contactanos</h1>
         <form>
             <label for="fname" class="text">Nombre:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" required><br>
             
             <label for="lname" class="text">Apellido:</label><br>
-            <input type="text" id="lname" name="lname">
+            <input type="text" id="lname" name="lname" required>
             <br>
             
             <label for="message" class="text">Deje su mensaje:</label><br>
-            <textarea id="message" name="message">        </textarea>
+            <textarea id="message" name="message" required></textarea>
             
             <br>
-            <input type="submit" value="Submit">
+            <!-- <input type="submit" value="Submit" onclick="presionarBoton()"> -->
+            <button type="button" onclick="presionarBoton()">Enviar</button>
           </form>
           <p></p>
           <b></b> 
@@ -83,5 +84,7 @@
     
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Script JS -->
+    <script src="script.js"></script>
 </body>
 </html>
